@@ -46,6 +46,9 @@ const Button = (props: Props) => (
         text-decoration: none;
         text-align: center;
       }
+      .button:hover {
+        background: rgba(255, 255, 255, 0.4);
+      }
       .primary {
         border: 2px solid white;
       }

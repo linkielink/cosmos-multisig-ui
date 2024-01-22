@@ -18,7 +18,7 @@ const CopyAndPaste = (props: Props) => (
       }
 
       path {
-        stroke: ${props.stroke ? props.stroke : "rgb(146 120 150)"};
+        stroke: ${props.stroke ? props.stroke : "#666"};
         stroke-width: ${props.strokeWidth ? props.strokeWidth : "10"};
         transition: stroke 0.1s ease;
       }

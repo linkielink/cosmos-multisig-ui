@@ -1,8 +1,7 @@
-import React from "react";
 import { isSecp256k1Pubkey, pubkeyToAddress, SinglePubkey } from "@cosmjs/amino";
 
-import HashView from "./HashView";
 import StackableContainer from "../layout/StackableContainer";
+import HashView from "./HashView";
 
 interface Props {
   /** Pubkeys of the multisig members */
@@ -42,7 +41,7 @@ const MultisigMembers = (props: Props) => (
       }
       .info {
         margin: 10px 0;
-        background: rgba(255, 255, 255, 0.03);
+        background: rgba(255, 255, 255, 0.1);
         padding: 10px;
         border-radius: 8px;
       }

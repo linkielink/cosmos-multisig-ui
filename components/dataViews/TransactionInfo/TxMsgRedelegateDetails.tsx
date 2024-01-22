@@ -38,7 +38,7 @@ const TxMsgRedelegateDetails = ({ msgValue }: TxMsgRedelegateDetailsProps) => {
       </li>
       <style jsx>{`
         li:not(:has(h3)) {
-          background: rgba(255, 255, 255, 0.03);
+          background: rgba(255, 255, 255, 0.1);
           padding: 6px 10px;
           border-radius: 8px;
           display: flex;

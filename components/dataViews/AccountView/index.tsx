@@ -23,7 +23,7 @@ export default function AccountView() {
 
   return (
     <div className="mt-6 flex flex-col gap-4">
-      <Card className="bg-fuchsia-850 min-w-[400px] border-transparent">
+      <Card className="min-w-[400px] border-transparent bg-black">
         <CardHeader className="p-0">
           <CardTitle className="flex items-baseline gap-2">
             {walletInfo?.type ? (

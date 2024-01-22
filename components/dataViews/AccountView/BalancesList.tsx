@@ -32,7 +32,7 @@ export default function BalancesList({ walletAddress, setError }: BalancesListPr
   }, [chain.nodeAddress, setError, walletAddress]);
 
   return balances.length ? (
-    <Card className="bg-fuchsia-850 w-full max-w-md border-transparent">
+    <Card className="w-full max-w-md border-transparent bg-black">
       <CardHeader className="p-0">
         <CardTitle>Balances</CardTitle>
       </CardHeader>

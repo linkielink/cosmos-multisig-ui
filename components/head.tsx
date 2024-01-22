@@ -1,8 +1,7 @@
-import React from "react";
 import NextHead from "next/head";
 import { string } from "prop-types";
 
-const defaultDescription = "Create multisigs and send tokens on any cosmos based chain";
+const defaultDescription = "The Multisig of the IBC Gangsters Inscription DAO";
 const defaultOGURL = "";
 
 interface Props {
@@ -20,6 +19,14 @@ const Head = (props: Props) => (
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ""} />
     <meta property="og:description" content={props.description || defaultDescription} />
+    <meta property="og:image" content="https://multisig.ibcgangsters.io/assets/banner.jpeg" />
+    <meta property="og:url" content="https://multisig.ibcgangsters.io" />
+    <meta property="og:site_name" content="IBC Gangsters Multisig" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={props.title || ""} />
+    <meta name="twitter:description" content={props.description || defaultDescription} />
+    <meta name="twitter:image" content="https://multisig.ibcgangsters.io/assets/banner.jpeg" />
   </NextHead>
 );
 

@@ -40,7 +40,7 @@ const Page = ({ title, goBack, children }: PageProps) => {
 
   return (
     <div className="page">
-      <Head title={title || "Cosmos Multisig Manager"} />
+      <Head title={title || "IBC Gangsters Inscription Multisig"} />
       <StackableContainer divProps={{ style: { width: "auto" } }}>
         {goBack ? (
           <StackableContainer

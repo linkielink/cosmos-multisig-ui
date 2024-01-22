@@ -105,8 +105,9 @@ const Page = ({ title, goBack, children }: PageProps) => {
           color: white;
           min-height: 100vh;
           background:
-            url("./assets/images/ibc-gangsters-background.webp"),
-            url("./assets/images/ibc-gangsters-background.jpg") no-repeat center center;
+            url("https://multisig.ibcgangsters.io/assets/images/ibc-gangsters-background.webp"),
+            url("https://multisig.ibcgangsters.io/assets/images/ibc-gangsters-background.jpg")
+              no-repeat center center;
           background-size: cover;
           font-size: 16px;
           margin: 0;

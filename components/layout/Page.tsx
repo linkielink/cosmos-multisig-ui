@@ -104,7 +104,10 @@ const Page = ({ title, goBack, children }: PageProps) => {
             sans-serif;
           color: white;
           min-height: 100vh;
-          background: linear-gradient(240.16deg, #111 10.46%, #222 54.88%, #333 94.89%);
+          background:
+            url("./assets/images/ibc-gangsters-background.webp"),
+            url("./assets/images/ibc-gangsters-background.jpg") no-repeat center center;
+          background-size: cover;
           font-size: 16px;
           margin: 0;
         }

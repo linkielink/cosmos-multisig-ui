@@ -276,7 +276,6 @@ const CreateTxForm = ({ router, senderAddress, accountOnChain }: CreateTxFormPro
         }
         .btn-cluster {
           padding: 0.5rem;
-          background: rgba(255, 255, 255, 0.05);
           border-radius: 10px;
           display: flex;
           flex-direction: column;

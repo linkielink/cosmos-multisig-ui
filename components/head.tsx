@@ -19,14 +19,20 @@ const Head = (props: Props) => (
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ""} />
     <meta property="og:description" content={props.description || defaultDescription} />
-    <meta property="og:image" content="https://multisig.ibcgangsters.io/assets/banner.jpeg" />
+    <meta
+      property="og:image"
+      content="https://multisig.ibcgangsters.io/assets/images/banner.jpeg"
+    />
     <meta property="og:url" content="https://multisig.ibcgangsters.io" />
     <meta property="og:site_name" content="IBC Gangsters Multisig" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={props.title || ""} />
     <meta name="twitter:description" content={props.description || defaultDescription} />
-    <meta name="twitter:image" content="https://multisig.ibcgangsters.io/assets/banner.jpeg" />
+    <meta
+      name="twitter:image"
+      content="https://multisig.ibcgangsters.io/assets/images/banner.jpeg"
+    />
   </NextHead>
 );
 

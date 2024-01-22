@@ -14,12 +14,16 @@ interface Props {
 
 const FindMultisigForm = (props: Props) => {
   const { chain } = useChains();
-  const [address, setAddress] = useState("");
+  const [address, setAddress] = useState("cosmos1etn576uef5uk94qz636y6urn9maazk8hvwa2y0");
   const [multisigError, setMultisigError] = useState("");
 
   const handleSearch = () => {
     props.router.push(`/${chain.registryName}/${address}`);
   };
+
+  useEffect(() => {
+    props.router.push(`/${chain.registryName}/${address}`);
+  }, []);
 
   useEffect(() => {
     (async function () {

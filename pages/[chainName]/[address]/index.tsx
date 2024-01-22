@@ -62,7 +62,7 @@ const Multipage = () => {
   }, [fetchMultisig, multisigAddress]);
 
   return (
-    <Page goBack={{ pathname: `/${chain.registryName}`, title: "home" }}>
+    <Page>
       <StackableContainer base>
         <StackableContainer>
           <label>Multisig Address</label>

@@ -1,10 +1,10 @@
 import {
-  Toast,
-  ToastClose,
-  ToastDescription,
-  ToastProvider,
-  ToastTitle,
-  ToastViewport,
+    Toast,
+    ToastClose,
+    ToastDescription,
+    ToastProvider,
+    ToastTitle,
+    ToastViewport,
 } from "@/components/ui/toast"
 import { useToast } from "@/components/ui/use-toast"
 
@@ -15,7 +15,7 @@ export function Toaster() {
     <ToastProvider >
       {toasts.map(function ({ id, title, description, action, ...props }) {
         return (
-          <Toast key={id} {...props} className="bg-fuchsia-900" style={
+          <Toast key={id} {...props} className="bg-black" style={
             {
               "--accent": "0, 100%, 100%",
               "--border": "0, 100%, 100%",

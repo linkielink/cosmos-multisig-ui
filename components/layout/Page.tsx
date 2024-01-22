@@ -104,7 +104,7 @@ const Page = ({ title, goBack, children }: PageProps) => {
             sans-serif;
           color: white;
           min-height: 100vh;
-          background: linear-gradient(240.16deg, #3f023c 10.46%, #561253 54.88%, #580a55 94.89%);
+          background: linear-gradient(240.16deg, #111 10.46%, #222 54.88%, #333 94.89%);
           font-size: 16px;
           margin: 0;
         }

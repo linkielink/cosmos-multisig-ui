@@ -14,7 +14,7 @@ interface Props {
 
 const FindMultisigForm = (props: Props) => {
   const { chain } = useChains();
-  const [address, setAddress] = useState("cosmos1etn576uef5uk94qz636y6urn9maazk8hvwa2y0");
+  const [address, setAddress] = useState("cosmos16xvaqwcr8rhcwawwq40mj6ttqeeydvvv2fm7gp");
   const [multisigError, setMultisigError] = useState("");
 
   const handleSearch = () => {
